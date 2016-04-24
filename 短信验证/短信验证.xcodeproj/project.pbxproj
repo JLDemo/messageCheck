@@ -24,6 +24,19 @@
 		043A12BD1CCCF102007696BD /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A12BC1CCCF102007696BD /* libstdc++.tbd */; };
 		043A12C01CCCF111007696BD /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A12BE1CCCF111007696BD /* AddressBook.framework */; };
 		043A12C11CCCF111007696BD /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A12BF1CCCF111007696BD /* AddressBookUI.framework */; };
+		043A12E71CCCF58A007696BD /* SMS_HYZBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A12C91CCCF58A007696BD /* SMS_HYZBadgeView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		043A12E81CCCF58A007696BD /* SMS_MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A12CB1CCCF58A007696BD /* SMS_MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		043A12E91CCCF58A007696BD /* YJLocalCountryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A12CD1CCCF58A007696BD /* YJLocalCountryData.m */; settings = {ASSET_TAGS = (); }; };
+		043A12EA1CCCF58A007696BD /* SMSSDKUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A12CF1CCCF58A007696BD /* SMSSDKUI.m */; settings = {ASSET_TAGS = (); }; };
+		043A12EB1CCCF58A007696BD /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A12D21CCCF58A007696BD /* CustomCell.m */; settings = {ASSET_TAGS = (); }; };
+		043A12EC1CCCF58A007696BD /* InvitationViewControllerEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A12D41CCCF58A007696BD /* InvitationViewControllerEx.m */; settings = {ASSET_TAGS = (); }; };
+		043A12ED1CCCF58A007696BD /* RegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A12D71CCCF58A007696BD /* RegViewController.m */; settings = {ASSET_TAGS = (); }; };
+		043A12EE1CCCF58A007696BD /* VerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A12D91CCCF58A007696BD /* VerifyViewController.m */; settings = {ASSET_TAGS = (); }; };
+		043A12EF1CCCF58A007696BD /* SectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A12DB1CCCF58A007696BD /* SectionsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		043A12F01CCCF58A007696BD /* SectionsViewControllerFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A12DD1CCCF58A007696BD /* SectionsViewControllerFriends.m */; settings = {ASSET_TAGS = (); }; };
+		043A12F11CCCF58A007696BD /* SMSUIContactsFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A12DF1CCCF58A007696BD /* SMSUIContactsFriendsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		043A12F21CCCF58A007696BD /* SMSUIVerificationCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A12E11CCCF58A007696BD /* SMSUIVerificationCodeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		043A12F31CCCF58A007696BD /* SMSSDKUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 043A12E61CCCF58A007696BD /* SMSSDKUI.bundle */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,13 @@
 		043A12B21CCCF0AF007696BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 043A12AE1CCCF0AE007696BD /* SMSSDUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7B2A62491C4F66BE00A160C8;
+			remoteInfo = SMSSDUI;
+		};
+		043A12F51CCCF58A007696BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043A12E31CCCF58A007696BD /* SMSSDUI.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 7B2A62491C4F66BE00A160C8;
 			remoteInfo = SMSSDUI;
@@ -77,6 +97,33 @@
 		043A12BC1CCCF102007696BD /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		043A12BE1CCCF111007696BD /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		043A12BF1CCCF111007696BD /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		043A12C81CCCF58A007696BD /* SMS_HYZBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMS_HYZBadgeView.h; sourceTree = "<group>"; };
+		043A12C91CCCF58A007696BD /* SMS_HYZBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMS_HYZBadgeView.m; sourceTree = "<group>"; };
+		043A12CA1CCCF58A007696BD /* SMS_MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMS_MBProgressHUD.h; sourceTree = "<group>"; };
+		043A12CB1CCCF58A007696BD /* SMS_MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMS_MBProgressHUD.m; sourceTree = "<group>"; };
+		043A12CC1CCCF58A007696BD /* YJLocalCountryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLocalCountryData.h; sourceTree = "<group>"; };
+		043A12CD1CCCF58A007696BD /* YJLocalCountryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLocalCountryData.m; sourceTree = "<group>"; };
+		043A12CE1CCCF58A007696BD /* SMSSDKUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSSDKUI.h; sourceTree = "<group>"; };
+		043A12CF1CCCF58A007696BD /* SMSSDKUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSSDKUI.m; sourceTree = "<group>"; };
+		043A12D11CCCF58A007696BD /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		043A12D21CCCF58A007696BD /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		043A12D31CCCF58A007696BD /* InvitationViewControllerEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvitationViewControllerEx.h; sourceTree = "<group>"; };
+		043A12D41CCCF58A007696BD /* InvitationViewControllerEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvitationViewControllerEx.m; sourceTree = "<group>"; };
+		043A12D61CCCF58A007696BD /* RegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegViewController.h; sourceTree = "<group>"; };
+		043A12D71CCCF58A007696BD /* RegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegViewController.m; sourceTree = "<group>"; };
+		043A12D81CCCF58A007696BD /* VerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyViewController.h; sourceTree = "<group>"; };
+		043A12D91CCCF58A007696BD /* VerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyViewController.m; sourceTree = "<group>"; };
+		043A12DA1CCCF58A007696BD /* SectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionsViewController.h; sourceTree = "<group>"; };
+		043A12DB1CCCF58A007696BD /* SectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionsViewController.m; sourceTree = "<group>"; };
+		043A12DC1CCCF58A007696BD /* SectionsViewControllerFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionsViewControllerFriends.h; sourceTree = "<group>"; };
+		043A12DD1CCCF58A007696BD /* SectionsViewControllerFriends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionsViewControllerFriends.m; sourceTree = "<group>"; };
+		043A12DE1CCCF58A007696BD /* SMSUIContactsFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSUIContactsFriendsViewController.h; sourceTree = "<group>"; };
+		043A12DF1CCCF58A007696BD /* SMSUIContactsFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSUIContactsFriendsViewController.m; sourceTree = "<group>"; };
+		043A12E01CCCF58A007696BD /* SMSUIVerificationCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSUIVerificationCodeViewController.h; sourceTree = "<group>"; };
+		043A12E11CCCF58A007696BD /* SMSUIVerificationCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSUIVerificationCodeViewController.m; sourceTree = "<group>"; };
+		043A12E21CCCF58A007696BD /* SMSUIVerificationCodeViewResultDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSUIVerificationCodeViewResultDef.h; sourceTree = "<group>"; };
+		043A12E31CCCF58A007696BD /* SMSSDUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SMSSDUI.xcodeproj; sourceTree = "<group>"; };
+		043A12E61CCCF58A007696BD /* SMSSDKUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SMSSDKUI.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +163,8 @@
 		043A12691CCCEDD5007696BD = {
 			isa = PBXGroup;
 			children = (
+				043A12C51CCCF58A007696BD /* SMSSDKUI */,
+				043A12E61CCCF58A007696BD /* SMSSDKUI.bundle */,
 				043A12C21CCCF11F007696BD /* frameWork */,
 				043A12A91CCCF068007696BD /* SMS_SDK */,
 				043A12741CCCEDD5007696BD /* 短信验证 */,
@@ -209,6 +258,79 @@
 			name = frameWork;
 			sourceTree = "<group>";
 		};
+		043A12C51CCCF58A007696BD /* SMSSDKUI */ = {
+			isa = PBXGroup;
+			children = (
+				043A12C61CCCF58A007696BD /* SMSSDKUI */,
+				043A12E31CCCF58A007696BD /* SMSSDUI.xcodeproj */,
+			);
+			path = SMSSDKUI;
+			sourceTree = "<group>";
+		};
+		043A12C61CCCF58A007696BD /* SMSSDKUI */ = {
+			isa = PBXGroup;
+			children = (
+				043A12C71CCCF58A007696BD /* SMS_UILib */,
+				043A12CE1CCCF58A007696BD /* SMSSDKUI.h */,
+				043A12CF1CCCF58A007696BD /* SMSSDKUI.m */,
+				043A12D01CCCF58A007696BD /* UI */,
+			);
+			path = SMSSDKUI;
+			sourceTree = "<group>";
+		};
+		043A12C71CCCF58A007696BD /* SMS_UILib */ = {
+			isa = PBXGroup;
+			children = (
+				043A12C81CCCF58A007696BD /* SMS_HYZBadgeView.h */,
+				043A12C91CCCF58A007696BD /* SMS_HYZBadgeView.m */,
+				043A12CA1CCCF58A007696BD /* SMS_MBProgressHUD.h */,
+				043A12CB1CCCF58A007696BD /* SMS_MBProgressHUD.m */,
+				043A12CC1CCCF58A007696BD /* YJLocalCountryData.h */,
+				043A12CD1CCCF58A007696BD /* YJLocalCountryData.m */,
+			);
+			path = SMS_UILib;
+			sourceTree = "<group>";
+		};
+		043A12D01CCCF58A007696BD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				043A12D11CCCF58A007696BD /* CustomCell.h */,
+				043A12D21CCCF58A007696BD /* CustomCell.m */,
+				043A12D31CCCF58A007696BD /* InvitationViewControllerEx.h */,
+				043A12D41CCCF58A007696BD /* InvitationViewControllerEx.m */,
+				043A12D51CCCF58A007696BD /* Rigister */,
+				043A12DA1CCCF58A007696BD /* SectionsViewController.h */,
+				043A12DB1CCCF58A007696BD /* SectionsViewController.m */,
+				043A12DC1CCCF58A007696BD /* SectionsViewControllerFriends.h */,
+				043A12DD1CCCF58A007696BD /* SectionsViewControllerFriends.m */,
+				043A12DE1CCCF58A007696BD /* SMSUIContactsFriendsViewController.h */,
+				043A12DF1CCCF58A007696BD /* SMSUIContactsFriendsViewController.m */,
+				043A12E01CCCF58A007696BD /* SMSUIVerificationCodeViewController.h */,
+				043A12E11CCCF58A007696BD /* SMSUIVerificationCodeViewController.m */,
+				043A12E21CCCF58A007696BD /* SMSUIVerificationCodeViewResultDef.h */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		043A12D51CCCF58A007696BD /* Rigister */ = {
+			isa = PBXGroup;
+			children = (
+				043A12D61CCCF58A007696BD /* RegViewController.h */,
+				043A12D71CCCF58A007696BD /* RegViewController.m */,
+				043A12D81CCCF58A007696BD /* VerifyViewController.h */,
+				043A12D91CCCF58A007696BD /* VerifyViewController.m */,
+			);
+			path = Rigister;
+			sourceTree = "<group>";
+		};
+		043A12E41CCCF58A007696BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043A12F61CCCF58A007696BD /* libSMSSDUI.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -300,6 +422,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 043A12E41CCCF58A007696BD /* Products */;
+					ProjectRef = 043A12E31CCCF58A007696BD /* SMSSDUI.xcodeproj */;
+				},
+				{
 					ProductGroup = 043A12AF1CCCF0AE007696BD /* Products */;
 					ProjectRef = 043A12AE1CCCF0AE007696BD /* SMSSDUI.xcodeproj */;
 				},
@@ -321,6 +447,13 @@
 			remoteRef = 043A12B21CCCF0AF007696BD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		043A12F61CCCF58A007696BD /* libSMSSDUI.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSMSSDUI.a;
+			remoteRef = 043A12F51CCCF58A007696BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -330,6 +463,7 @@
 			files = (
 				043A12851CCCEDD5007696BD /* LaunchScreen.storyboard in Resources */,
 				043A12821CCCEDD5007696BD /* Assets.xcassets in Resources */,
+				043A12F31CCCF58A007696BD /* SMSSDKUI.bundle in Resources */,
 				043A12801CCCEDD5007696BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,9 +489,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043A12E71CCCF58A007696BD /* SMS_HYZBadgeView.m in Sources */,
+				043A12EC1CCCF58A007696BD /* InvitationViewControllerEx.m in Sources */,
+				043A12EF1CCCF58A007696BD /* SectionsViewController.m in Sources */,
+				043A12F11CCCF58A007696BD /* SMSUIContactsFriendsViewController.m in Sources */,
 				043A127D1CCCEDD5007696BD /* ViewController.m in Sources */,
+				043A12ED1CCCF58A007696BD /* RegViewController.m in Sources */,
+				043A12EB1CCCF58A007696BD /* CustomCell.m in Sources */,
+				043A12F01CCCF58A007696BD /* SectionsViewControllerFriends.m in Sources */,
 				043A127A1CCCEDD5007696BD /* AppDelegate.m in Sources */,
+				043A12E91CCCF58A007696BD /* YJLocalCountryData.m in Sources */,
+				043A12E81CCCF58A007696BD /* SMS_MBProgressHUD.m in Sources */,
+				043A12EE1CCCF58A007696BD /* VerifyViewController.m in Sources */,
 				043A12771CCCEDD5007696BD /* main.m in Sources */,
+				043A12F21CCCF58A007696BD /* SMSUIVerificationCodeViewController.m in Sources */,
+				043A12EA1CCCF58A007696BD /* SMSSDKUI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
