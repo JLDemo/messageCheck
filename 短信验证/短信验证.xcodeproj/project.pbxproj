@@ -15,6 +15,15 @@
 		043A12851CCCEDD5007696BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043A12831CCCEDD5007696BD /* LaunchScreen.storyboard */; };
 		043A12901CCCEDD5007696BD /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A128F1CCCEDD5007696BD /* ____Tests.m */; };
 		043A129B1CCCEDD5007696BD /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A129A1CCCEDD5007696BD /* ____UITests.m */; };
+		043A12AC1CCCF068007696BD /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A12AA1CCCF068007696BD /* MOBFoundation.framework */; settings = {ASSET_TAGS = (); }; };
+		043A12AD1CCCF068007696BD /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A12AB1CCCF068007696BD /* SMS_SDK.framework */; settings = {ASSET_TAGS = (); }; };
+		043A12B51CCCF0E1007696BD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A12B41CCCF0E1007696BD /* libz.tbd */; };
+		043A12B71CCCF0E9007696BD /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A12B61CCCF0E9007696BD /* libicucore.tbd */; };
+		043A12B91CCCF0F1007696BD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A12B81CCCF0F1007696BD /* MessageUI.framework */; };
+		043A12BB1CCCF0F8007696BD /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A12BA1CCCF0F8007696BD /* JavaScriptCore.framework */; };
+		043A12BD1CCCF102007696BD /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A12BC1CCCF102007696BD /* libstdc++.tbd */; };
+		043A12C01CCCF111007696BD /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A12BE1CCCF111007696BD /* AddressBook.framework */; };
+		043A12C11CCCF111007696BD /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A12BF1CCCF111007696BD /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +40,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 043A12711CCCEDD5007696BD;
 			remoteInfo = "短信验证";
+		};
+		043A12B21CCCF0AF007696BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043A12AE1CCCF0AE007696BD /* SMSSDUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7B2A62491C4F66BE00A160C8;
+			remoteInfo = SMSSDUI;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,6 +67,16 @@
 		043A12961CCCEDD5007696BD /* 短信验证UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "短信验证UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		043A129A1CCCEDD5007696BD /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		043A129C1CCCEDD5007696BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043A12AA1CCCF068007696BD /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		043A12AB1CCCF068007696BD /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		043A12AE1CCCF0AE007696BD /* SMSSDUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SMSSDUI.xcodeproj; path = ../../../../../Downloads/SMSSDK_2.0.4_Demo/SMSSDKUI/SMSSDUI.xcodeproj; sourceTree = "<group>"; };
+		043A12B41CCCF0E1007696BD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		043A12B61CCCF0E9007696BD /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		043A12B81CCCF0F1007696BD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		043A12BA1CCCF0F8007696BD /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		043A12BC1CCCF102007696BD /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		043A12BE1CCCF111007696BD /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		043A12BF1CCCF111007696BD /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043A12C01CCCF111007696BD /* AddressBook.framework in Frameworks */,
+				043A12C11CCCF111007696BD /* AddressBookUI.framework in Frameworks */,
+				043A12BD1CCCF102007696BD /* libstdc++.tbd in Frameworks */,
+				043A12BB1CCCF0F8007696BD /* JavaScriptCore.framework in Frameworks */,
+				043A12B91CCCF0F1007696BD /* MessageUI.framework in Frameworks */,
+				043A12B71CCCF0E9007696BD /* libicucore.tbd in Frameworks */,
+				043A12B51CCCF0E1007696BD /* libz.tbd in Frameworks */,
+				043A12AC1CCCF068007696BD /* MOBFoundation.framework in Frameworks */,
+				043A12AD1CCCF068007696BD /* SMS_SDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +116,8 @@
 		043A12691CCCEDD5007696BD = {
 			isa = PBXGroup;
 			children = (
+				043A12C21CCCF11F007696BD /* frameWork */,
+				043A12A91CCCF068007696BD /* SMS_SDK */,
 				043A12741CCCEDD5007696BD /* 短信验证 */,
 				043A128E1CCCEDD5007696BD /* 短信验证Tests */,
 				043A12991CCCEDD5007696BD /* 短信验证UITests */,
@@ -138,6 +175,38 @@
 				043A129C1CCCEDD5007696BD /* Info.plist */,
 			);
 			path = "短信验证UITests";
+			sourceTree = "<group>";
+		};
+		043A12A91CCCF068007696BD /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				043A12AA1CCCF068007696BD /* MOBFoundation.framework */,
+				043A12AB1CCCF068007696BD /* SMS_SDK.framework */,
+			);
+			path = SMS_SDK;
+			sourceTree = "<group>";
+		};
+		043A12AF1CCCF0AE007696BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043A12B31CCCF0AF007696BD /* libSMSSDUI.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043A12C21CCCF11F007696BD /* frameWork */ = {
+			isa = PBXGroup;
+			children = (
+				043A12BE1CCCF111007696BD /* AddressBook.framework */,
+				043A12BF1CCCF111007696BD /* AddressBookUI.framework */,
+				043A12BC1CCCF102007696BD /* libstdc++.tbd */,
+				043A12BA1CCCF0F8007696BD /* JavaScriptCore.framework */,
+				043A12B81CCCF0F1007696BD /* MessageUI.framework */,
+				043A12B61CCCF0E9007696BD /* libicucore.tbd */,
+				043A12B41CCCF0E1007696BD /* libz.tbd */,
+				043A12AE1CCCF0AE007696BD /* SMSSDUI.xcodeproj */,
+			);
+			name = frameWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +298,12 @@
 			mainGroup = 043A12691CCCEDD5007696BD;
 			productRefGroup = 043A12731CCCEDD5007696BD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 043A12AF1CCCF0AE007696BD /* Products */;
+					ProjectRef = 043A12AE1CCCF0AE007696BD /* SMSSDUI.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				043A12711CCCEDD5007696BD /* 短信验证 */,
@@ -237,6 +312,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		043A12B31CCCF0AF007696BD /* libSMSSDUI.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSMSSDUI.a;
+			remoteRef = 043A12B21CCCF0AF007696BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		043A12701CCCEDD5007696BD /* Resources */ = {
@@ -411,6 +496,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMS_SDK",
+				);
 				INFOPLIST_FILE = "短信验证/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.www.----";
@@ -422,6 +511,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMS_SDK",
+				);
 				INFOPLIST_FILE = "短信验证/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.www.----";
